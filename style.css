@@ -1,0 +1,87 @@
+body{
+    
+    margin:0;
+    padding:0;
+    text-align: center;
+box-sizing: border-box;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(193,148,233,1) 100%);
+font-family: poppins;
+font-size: 17px;
+display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+
+h1{
+    text-align: center;
+}
+.listitem {
+    
+    background-color: whitesmoke;
+    padding: 5px;
+   
+   width:400px;
+   margin:1rem;
+   height: 400px;
+
+   
+   
+    
+}
+.listitem label{
+    margin: 2px;
+    display: flex;
+    font-size: 15px;
+
+   
+}
+.listitem input {
+    width: 80%;
+    border-radius: 5px;
+    padding:2px;
+    margin:2px;
+    outline: none;
+    
+   
+    border-color:blueviolet;
+}
+.listitem select{
+    width:80%;
+    padding:5px;
+    margin: 5px;
+    border-radius: 5px;
+    border-color:blueviolet;
+}
+ #gen1,#gen2{
+    width: auto;
+    margin: 10px;
+    font-size: 15px;
+
+}
+
+button{
+    font-family: poppins;
+    font-size: 17px;
+    background-color: purple;
+    color: white;
+    width: 100%;
+    margin-top:  10px;
+    padding: 5px;
+    cursor: pointer;
+}
+td,th{
+ border:1px solid;
+ padding: 10px;
+  margin-top:10px;
+text-align: center;
+
+
+}
+table{
+    border-collapse: collapse;
+}
+

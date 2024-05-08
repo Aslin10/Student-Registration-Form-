@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <div class="listitem">
+        <form onsubmit="event.preventDefault();onFormSubmit()"; autocomplete="off">
+        <h1>Student Registration Form</h1>
+        
+    <div>
+       <label>NAME</label>
+       <input type="text" name="name" id="name">
+       </div>
+    <div>
+       <label>AGE</label>
+       <input type="text" name="age" id="age">
+    </div>
+    <div class="radio">
+   
+       <label >GENDER</label>
+       <input type="radio" name="gender" id="gen1"  value="MALE">MALE
+       <input type="radio" name="gender" id="gen2" value="FEMALE">FEMALE
+    </div>
+    <div>
+    
+       <label >COURSE</label>
+       <select id="course-list">
+        <option value="">Select one</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+        <option value="CIVIL">CIVIL</option>
+        <option value="MECH">MECH</option>
+       </select>
+    </div>
+    <div>
+       
+       <label>EMAIL</label>
+       <input type="text" name="Email" id="Email">
+    </div>
+       <div>
+            <button id="savebutton">SAVE</button>
+    </div>
+</div>
+
+    
+</form>
+<table id="list">
+    <thead>
+    <tr>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>GENDER</th>
+        <th>COURSE</th>
+        <th>EMAIL</th>
+        <th>ACTION</th>
+    </tr>
+</thead>
+    <tbody >
+
+    </tbody>
+</table>
+<script src="script.js"></script>
+    
+</body>
+</html>
+
+   
